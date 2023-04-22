@@ -61,8 +61,11 @@ Todas as matrizes são printadas dessa forma cada vez que são percorridas e, se
 ![telaOutputPrimeiraFase]()
 
 <p align="justify">
-Com relação ao arquivo "output.data",
+Com relação ao arquivo "output.data", ele é constituido das matrizes já percorridas depois do jogo ter acabado e das matrizes verdade, que marcam os locais que foram visitados ao menos uma vez pelo personagem com o símbolo "1";
 </p>
+
+![telaOutputData]()
+
 
 # Compilação e Execução
 
