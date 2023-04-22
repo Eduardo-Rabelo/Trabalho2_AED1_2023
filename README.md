@@ -58,7 +58,11 @@ Todas as matrizes são printadas dessa forma cada vez que são percorridas e, se
 ![telaOutputPrimeiraFase](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaOutputPrimeiraFase.png)
 
 <p align="justify">
-Com relação ao arquivo "output.data", ele é constituido das matrizes já percorridas depois do jogo ter acabado e das matrizes verdade, que marcam os locais que foram visitados ao menos uma vez pelo personagem com o símbolo "1";
+	O caminho printado mostra também as tentativas de se passar pela parede, porém não mostra o movimento de retorno para a posição anterior. Para se ler o caminho,é preciso ter em mente que, caso o personagem tente atravessar a parede, o movimento não ocorre e ele fica na posição em que estava anteriormente.
+</p>
+
+<p align="justify">
+Com relação ao arquivo "output.data", ele é constituido das matrizes já percorridas depois do jogo ter acabado e das matrizes verdade, que marcam os locais que foram visitados ao menos uma vez pelo personagem com o símbolo "1".
 </p>
 
 ![telaOutputData](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaOutputData.png)
