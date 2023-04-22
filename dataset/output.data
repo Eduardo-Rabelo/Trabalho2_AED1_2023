@@ -1,0 +1,29 @@
+4 4 2
+0 0 0 0 
+* 0 0 * 
+0 0 * # 
+0 0 * 2 
+
+0 0 0 2 
+0 0 0 0 
+0 # 2 # 
+0 * * # 
+
+
+
+MATRIZES VERDADE(1 = casa foi acessada pelo personagem, 0 = não foi):
+
+MATRIZ VERDADE 1:
+
+1 1 1 1 
+1 1 1 1 
+1 1 0 0 
+1 1 1 0 
+
+MATRIZ VERDADE 2:
+
+1 1 1 1 
+1 1 1 1 
+1 0 1 0 
+1 1 1 0 
+
