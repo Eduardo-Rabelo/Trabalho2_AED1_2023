@@ -1,6 +1,8 @@
-#O caminho guloso
+#O Labirinto
 
-	O algoritmo aqui apresentado tem como intuito calcular o total do caminho guloso para percorrer cada matriz do arquivo "input.data" de modo a calcular a soma dos caminhos gulosos de todas as matrizes. Com esse objetivo, foram criados 3 arquivos em linguagem c++, sendo eles "main.cpp""Matriz.hpp""Matriz.cpp".
+	O algoritmo aqui apresentado tem como intuito extrair matrizes de um arquivo "input.data", percorrê-las de seuindo regras pré determinadas e salva-las em um arquivo "output.data" sem alterar as informações de "input.data". Além disso, as matrizes são tratadas como labirintos em uma espécie de <i>video game</i>.
+	
+	calcular o total do caminho guloso para percorrer cada matriz do arquivo "input.data" de modo a calcular a soma dos caminhos gulosos de todas as matrizes. Com esse objetivo, foram criados 3 arquivos em linguagem c++, sendo eles "main.cpp""Matriz.hpp""Matriz.cpp".
 
 	Para se percorrer a matriz, deve-se sempre sseguir a matriz escolhendo-se o maior valor a cada passo, porém não sendo possível ir para uma linha acima da atual.
 
