@@ -4,14 +4,14 @@
 </p>
 	
 	
-	
-	COLOCAR IMAGEM AQUI
+![Direita](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/direita.png)
 
 		
 <p align="justify">	
 	Há ainda, casos especiais. Quando o persongem está na última coluna, ele pode se mover,caso seja possível,  tanto para a linha superior, ou inferior a que ele se encontra, porém na próxima matriz, se ele tiver se movido para a diagonal direita superior, ou  inferior, respectivamente. Se o personagem estiver no canto inferior direito da matriz e se mover para a diagonal direita inferior, ele se moverá para a última linha da primeira coluna da próxima fase. Da mesma forma, caso se mova para diagonal direita superior, estando no canto superior direito, o transporde ocorrerá como se ele tivesse se movido para a direita. Por fim,caso ele esteja no canto inferior esquerdo, mover para diagonal esquerda inferior é equivalente a mover para baixo. Não é possível se transportar para outra fase por cima, ou pela esquerda.
 </p>
 
+![Diagonal](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/Diagonal.png)
 	COLOCAR IMAGEM AQUI
 
 <p align="justify">
@@ -21,17 +21,14 @@
 <p align="justify">
 	Caso as vidas do personagem acabem, o jogo acaba em uma tela de "GAME OVER" que é representada na imagem a seguir. Nela, são exibidas as mensagens "GANME OVER" e "YOU LOST", bem como o total de itens consumidos pelo personagem, ou sua pontuação total, o número total de perigos pelos quais ele passou, o número total de casas que foram visitadas ao menos uma vez no jogo inteiro, e o número de casas que nunca sequer foram visitadas. A tela de vitória é basicamente idêntica, porém as mensagens "GANME OVER" e "YOU LOST" são substituídas pela mensagem "VICTORY". A condição de vitória é o personagem passar por todas as fases do jogo, sem ganhar itens e sem morrer, e retornar a posição inicial do jogo, que é a posição [0][0] da primeira fase. Faltou aida dizer que da última fase, o personagem se transporta para a primeira.
 </p>
-	![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
 	
+![TELAdeDERROTA](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaDerrota.png)
+
+
+![telaVitoria](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaVitoria.png)
 	
-	
-	![TELAdeDERROTA](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaDerrota.png)
-	
-	![TELAdeVitoria](Imagens/telaVitoria.png)
-	
-	
-	
-	COLOCAR IMAGEM AQUI(TELA DE VITÓRIA E TELA DE DERROTA)
 	
 	
 # Custo
@@ -52,19 +49,19 @@
 O output do programa,além do arquivo "output.data", o qual será explanado adiante, consiste em prints na tela de todas as matrizes do seguinte modo: primeiro, é printada a matriz antes de ser percorrida, depois a posição inicial para o percorrimento, depois o caminho percorrido, incluindo a indicação de por onde o personagem saiu da matriz, porém em caixa alta, a matriz após ser percorrida e, por fim, estatos importantes como pontos ganhos ao percorrer a fase, perigos enfrentados na fase naquela iteraçao,	casas percorridas ao menos uma vez na fase com o decorrer do jogo, pontos totais acumulados, vidas e itens do personagem.
 </p>	
 
-![telaOutput]()
+![telaOutput](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaOutput.png)
 
 <p align="justify">
 Todas as matrizes são printadas dessa forma cada vez que são percorridas e, sempre que a primeira matriz é percorrida, printa-se também o número de vezes que ela já foi percorrida. Se for a primeira vez que ela estiver sendo percorrida, o número printado será 1. Na imagem a seguir, por exemplo, é a quinta vez que o personagem alcança a fase 1.
 </p>
 
-![telaOutputPrimeiraFase]()
+![telaOutputPrimeiraFase](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaOutputPrimeiraFase.png)
 
 <p align="justify">
 Com relação ao arquivo "output.data", ele é constituido das matrizes já percorridas depois do jogo ter acabado e das matrizes verdade, que marcam os locais que foram visitados ao menos uma vez pelo personagem com o símbolo "1";
 </p>
 
-![telaOutputData]()
+![telaOutputData](https://github.com/Eduardo-Rabelo/Trabalho2_AED1_2023/blob/main/Imagens/telaOutputData.png)
 
 
 # Compilação e Execução
