@@ -17,9 +17,14 @@
 <p align="justify">
 	Caso as vidas do personagem acabem, o jogo acaba em uma tela de "GAME OVER" que é representada na imagem a seguir. Nela, são exibidas as mensagens "GANME OVER" e "YOU LOST", bem como o total de itens consumidos pelo personagem, ou sua pontuação total, o número total de perigos pelos quais ele passou, o número total de casas que foram visitadas ao menos uma vez no jogo inteiro, e o número de casas que nunca sequer foram visitadas. A tela de vitória é basicamente idêntica, porém as mensagens "GANME OVER" e "YOU LOST" são substituídas pela mensagem "VICTORY". A condição de vitória é o personagem passar por todas as fases do jogo, sem ganhar itens e sem morrer, e retornar a posição inicial do jogo, que é a posição [0][0] da primeira fase. Faltou aida dizer que da última fase, o personagem se transporta para a primeira.
 </p>
+	![Menu](https://github.com/JoaoVictorFBarros/Algoritmo_de_recomendacao/blob/Imagens/Menu.png)
+	![TELAdeDERROTA]()
+	
 	
 	
 	COLOCAR IMAGEM AQUI(TELA DE VITÓRIA E TELA DE DERROTA)
+	
+	
 # Custo
 <p align="justify">
 	As matrizes são extraídas do arquivo "input.txt" e operadas uma a uma, ou seja, o custo do algoritmo, em questão de memória alocada, depende apenas da ordem das matrizes, não da quantidade delas. Já em questão de custo computacional, para criar os arquivos separados de cada matriz, o custo seria igual a k vezes o número n de elementos de cada matriz, porém, como as matrizes são escritas e retiradas dos arquivos uma a uma, seu custo é n. Para percorrer a matriz, no entanto, o custo pertenceria à classe Teta de n, pois seu custo é, aproximadamente, 47n, dependendo do caminho percorrido,  ou seja, menor que 100n e maior que 2n, por exemplo, o que o enquadra o método "void percorreMatriz()" nessa classe de algoritmos. Como estruturas condicionais sao caras computacionalmente, e este método é o que mais faz uso delas, ele é o mais caro do algoritmo, portanto, é correto dizer que o algoritmo pertence à classe Teta de n. 
